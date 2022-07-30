@@ -1,0 +1,109 @@
+/* Styling of navigation bar */
+#navdiv {
+  display: flex;
+  width: 17%;
+  margin-left: 82%;
+  justify-content: space-around;
+  margin-top: 1%;
+  height: 35px;
+}
+/* #bgimage {
+  background-image: url("./bbackground.jpeg");
+  width: 100%;
+  height: 600%;
+} */
+
+#bgimage img {
+  object-fit: cover;
+}
+nav img {
+  margin-top: 5px;
+}
+
+#googleimg {
+  margin-top: 100px;
+}
+/* Removing underline from links*/
+a {
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+button {
+  border-radius: 3px;
+  height: 100%;
+  padding: 5px 12px;
+  background-color: #4c87e1;
+  color: white;
+  border: none;
+}
+/* setting up size and border stle of search bar*/
+#maindiv {
+  width: 35%;
+  border-radius: 50px;
+  display: flex;
+  height: 40px;
+  border: 1px solid lightgrey;
+}
+
+.query {
+  width: 100%;
+}
+span {
+  vertical-align: top;
+}
+span:first-child {
+  width: 10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+span:last-child {
+  width: 10%;
+  border-radius: 50px;
+  margin-top: 7px;
+}
+
+input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 0px;
+}
+
+section {
+  display: flex;
+  margin-top: 2%;
+  width: 23%;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+section button {
+  padding: 10px 12px;
+  background-color: lightgrey;
+  color: black;
+}
+
+ul {
+  display: flex;
+  width: 30%;
+  padding-left: 0px;
+  list-style: none;
+  justify-content: space-around;
+  margin: 6px;
+}
+#Bottomdiv {
+  display: flex;
+  font-size: 12px;
+  margin-top: 3%;
+}
+#Bottomdiv span {
+  width: 7%;
+  margin-left: 31%;
+}
+/*When hovered*/
+a:hover {
+  text-decoration: underline;
+}
+button:hover {
+  border: 1px solid gray;
+}
